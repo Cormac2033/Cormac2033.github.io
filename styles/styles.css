@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    line-height: 2.5em;
+    background-image: url("/Users/scrappynellie/PycharmProjects/website-w-css-and-bootstrap/images/so-white/so-white.png")
+    }
+
+
+.active {
+  background-color: #4CAF50;
+}
+
+.bullets {
+background-color: white
+}
+
+.our-content {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    line-height: 2.5em;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    background-image: url("/Users/scrappynellie/PycharmProjects/website-w-css-and-bootstrap/images/so-white/so-white.png")
+
+}
+
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #111;
+}
+
+li {
+          float: left;
+}
+
+li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+
+li a:hover:not(.active) {
+      background-color: #324F37;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  -webkit-box-shadow: 11px 10px 26px -8px rgba(0,0,0,0.6);
+
+}
+
+.center {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation {
+
+}
